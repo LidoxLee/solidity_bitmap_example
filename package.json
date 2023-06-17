@@ -1,9 +1,7 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "test": "npx hardhat test ./test/*.test.ts",
-    "deploy:goerli": "npx hardhat --network goerli deploy",
-    "verify:goerli": "npx hardhat --network goerli etherscan-verify --sleep"
+    "test": "npx hardhat test ./test/*.test.ts"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
